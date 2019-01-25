@@ -8,6 +8,8 @@
 #'
 #' @param obs factor with observed values
 #' @param pred factor with predicted values
+#' 
+#' @author Cosimo Toma cosimotoma88@gmail.com
 #'
 #' @return MCC
 #'
