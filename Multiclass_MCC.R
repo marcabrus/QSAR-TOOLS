@@ -13,7 +13,7 @@
 #'
 
 multi_MCC <- function(obs,pred) {
-  # create the contincency table with the r base function table
+  # create the contingency table with the r base function table
   cont_matr<-as.data.frame.matrix(table(pred, obs))
   # not necessary, change names to contingency table
   colnames(cont_matr)<-paste(colnames(cont_matr), "Ref", sep = "_")
