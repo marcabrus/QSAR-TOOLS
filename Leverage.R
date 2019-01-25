@@ -8,14 +8,15 @@ library('MASS')
 
 #' Evaluate the applicability domain of a QSAR model for a new compound with the calculation of the leverage (hi). 
 #' New compounds that are above the hi threshold are considered outside the AD. 
-#' form more information refer to the article : A. Tropsha, P. Gramatica, V.K. Gombar, 
+#' @reference A. Tropsha, P. Gramatica, V.K. Gombar, 
 #' QSAR Comb. Sci. 22 (2003) 69-77 & A. Golbraikh, A. Tropsha, J. Mol. Graph. Model. 20 (2002) 269-276
 #'
 #' @param indicesTrain  matrix with descriptors of the Training Set
 #' @param indicesTest Matrix with descriptors of the Test Set
 #'
 #' @return a vector woth the same number of elements of the test set 
-#' assigning the label 'reliable' if the compound is under the hi treshold
+#' @author Cosimo Toma cosimotoma88@gmail.com
+#' assigning the label 'reliable' if the compound is under the hi threshold
 #' and 'unreliable' if the compound is upper the hi treshold
 #'
 leverage.calculation = function ( indicesTrain, indicesTest){
