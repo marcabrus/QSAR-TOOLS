@@ -1,7 +1,7 @@
 # v. 0.1
 # 10/01/2018
 #
-#' Gorodkin, Jan. "Comparing two K-category assignments by a K-category correlation coefficient."
+#' @reference Gorodkin, Jan. "Comparing two K-category assignments by a K-category correlation coefficient."
 #' Computational biology and chemistry 28.5-6 (2004): 367-374.
 #'
 #' It takes two factors, one for the observed values one for the predicted
