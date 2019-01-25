@@ -79,4 +79,3 @@ multi_MCC <- function(obs,pred) {
 return(MCC)
 
   }
-aa<-multi_MCC(obs,pred)
