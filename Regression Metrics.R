@@ -116,7 +116,7 @@ Regression.metrics <-
           )
       }
     } else{
-      cat(sprintf("Set Column provided, perrformances evaluated on entire set using %s as label\n",SetLabel))
+      cat(sprintf("Set Column provided, performances evaluated on entire set using %s as label\n",SetLabel))
       SetColumn <- SetColumn[!isNA]
       obsTrain = obs[which(SetColumn == SetLabel)]
       predTrain = pred[which(SetColumn == SetLabel)]
